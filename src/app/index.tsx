@@ -3,7 +3,7 @@
 import { View, Text, Button } from "react-native";
 
 <Button
-  title="Menu"
+  title="Tasty Menu"
   onPress={() => alert("Menu coming soon")}
 />
 
