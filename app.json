@@ -2,7 +2,7 @@
   "expo": {
     "name": "week1-app",
     "slug": "week1-app",
-    "version": "1.0.0",
+    "version": "0.3.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "week1app",
