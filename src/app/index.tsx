@@ -2,7 +2,7 @@
 
 import { View, Text, Button } from "react-native";
 import DeviceFacts from '../../components/DeviceFacts';
-
+import CustomButtons from '../../components/CustomButtons'
 
 export default function Index() {
   return (
@@ -20,6 +20,7 @@ export default function Index() {
         Your App name
       </Text>
       <Text>This app will change the world.</Text>
+      <CustomButtons />
     </View>
   
   );
