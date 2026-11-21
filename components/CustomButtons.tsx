@@ -86,8 +86,6 @@ export default function CustomButtons() {
 
 } 
 
-  
-
 const styles = StyleSheet.create({ 
 
   wrap: { padding: 16, gap: 12 }, 
