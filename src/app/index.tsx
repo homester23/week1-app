@@ -3,6 +3,8 @@
 import { View, Text, Button } from "react-native";
 import DeviceFacts from '../../components/DeviceFacts';
 import CustomButtons from '../../components/CustomButtons'
+import WhereAmI from '../../components/WhereAmI';
+
 import NoteSaver from '../../components/NoteSaver';
 
 export default function Index() {
@@ -22,6 +24,7 @@ export default function Index() {
       </Text>
       <Text>This app will change the world.</Text>
       <CustomButtons />
+      <WhereAmI />
       <NoteSaver />
     </View>
   
