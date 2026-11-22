@@ -4,8 +4,9 @@ import { View, Text, Button } from "react-native";
 import DeviceFacts from '../../components/DeviceFacts';
 import CustomButtons from '../../components/CustomButtons'
 import WhereAmI from '../../components/WhereAmI';
-
 import NoteSaver from '../../components/NoteSaver';
+
+import { Link } from 'expo-router'; 
 
 export default function Index() {
   return (
@@ -24,8 +25,10 @@ export default function Index() {
       </Text>
       <Text>This app will change the world.</Text>
       <CustomButtons />
-      <WhereAmI />
       <NoteSaver />
+      <WhereAmI />
+      <Link href="../patterns">Open the pattern demo</Link>
+
     </View>
   
   );
