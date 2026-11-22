@@ -5,8 +5,8 @@ import DeviceFacts from '../../components/DeviceFacts';
 import CustomButtons from '../../components/CustomButtons'
 import WhereAmI from '../../components/WhereAmI';
 import NoteSaver from '../../components/NoteSaver';
-
 import { Link } from 'expo-router'; 
+import ScreenSize from '../../components/ScreenSize'
 
 export default function Index() {
   return (
@@ -27,8 +27,9 @@ export default function Index() {
       <CustomButtons />
       <NoteSaver />
       <WhereAmI />
+      <ScreenSize />
       <Link href="../patterns">Open the pattern demo</Link>
-
+      
     </View>
   
   );
